@@ -29,16 +29,12 @@ com a intensão de criar uma interface de um site de vendas de pacotes de viagen
 
 Assuntos abordados:
 
-    - Utilizar vários elementos do interface builder para montar a interface do seu aplicativo
-    - Funcionamento e implementação de um aplicativo para iPhone e iPad
-    - Utilização de constraints para deixar seu app responsivo
-    - Size classes para alterar o tamanho dos elementos de acordo com o device
-    - Utilização de NSPredicate para filtrar os objetos do array
-    - Utilização de UIStackView para deixar o app responsivo
-    - Filtro de objetos no array utilizando NSPredicate
-    - UIScrollView para visualizar todo conteúdo do ViewController
-    - Diferenças entre Constraints x UIStackView
-
+- [x] Interface builder,
+- [x] Constraints,
+- [x] Size classes,
+- [ ] NSPredicate,
+- [ ] UIStackView,
+- [ ] Constraints x UIStackView;
 
 ## Layout
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
