@@ -40,7 +40,8 @@ Assuntos abordados:
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
 	<img src="imagens/github/Screenshot 1.png" width="325px">	
 	<img src="imagens/github/Screenshot 2.png" width="325px">
-	<img src="imagens/github/Screenshot 3.png" width="325px">	
+	<img src="imagens/github/Screenshot 3.png" width="325px">
+	<img src="imagens/github/Screenshot 4.png" width="325px">
 </div>
 
 ## Tecnologias
