@@ -34,7 +34,7 @@ Assuntos abordados:
 - [x] Size classes;
 - [x] UIStackView;
 - [x] Constraints x UIStackView;
-- [ ] NSPredicate.
+- [x] NSPredicate.
 
 ## Layout
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
