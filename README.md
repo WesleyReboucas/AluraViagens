@@ -25,7 +25,7 @@
 
 O Alura Viagens é um projeto idealizado pela 
 <a href="https://alura.com.br/"> **Alura** </a> 
-com a intensão de criar uma interface de um site de vendas de pacotes de viagens.
+com a intensão de criar uma interface de um app IOS de vendas de pacotes de viagens.
 
 Assuntos abordados:
 
