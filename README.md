@@ -38,12 +38,10 @@ Assuntos abordados:
 
 ## Layout
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-	<img src=".github/00.png" width="900px">			
+	<img src="imagens/github/Screenshot 1.png" width="325px">	
+	<img src="imagens/github/Screenshot 2.png" width="325px">
+	<img src="imagens/github/Screenshot 3.png" width="325px">	
 </div>
-<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-	<img src=".github/01.png" width="900px">		
-</div>
-
 
 ## Tecnologias
 
@@ -69,6 +67,12 @@ $ cd AluraViagens
 <a href="https://cursos.alura.com.br/certificate/2ca04c07-6dfc-4e4d-a344-b87a32ce6c6c?lang=pt_BR">
 	<img src="https://img.shields.io/static/v1?label=Alura&message=2023&color=199ffc&style=flat"/>
 </a>
+
+<a href="https://cursos.alura.com.br/certificate/2ca04c07-6dfc-4e4d-a344-b87a32ce6c6c?lang=pt_BR">
+	<img src="https://img.shields.io/static/v1?label=Alura&message=2023&color=199ffc&style=flat"/>
+</a>
+
+
 
 
 ## :page_with_curl: Licencia 
