@@ -1,6 +1,6 @@
 
 <div >
-  <img src=".github/05.png" width="1000px">
+  <img src="imagens/github/Logo.png" width="1000px">
 </div>
 
 <p align="center">
@@ -29,12 +29,12 @@ com a intensão de criar uma interface de um site de vendas de pacotes de viagen
 
 Assuntos abordados:
 
-- [x] Interface builder,
-- [x] Constraints,
-- [x] Size classes,
-- [ ] NSPredicate,
-- [ ] UIStackView,
-- [ ] Constraints x UIStackView;
+- [x] Interface builder;
+- [x] Constraints;
+- [x] Size classes;
+- [x] UIStackView;
+- [x] Constraints x UIStackView;
+- [ ] NSPredicate.
 
 ## Layout
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
