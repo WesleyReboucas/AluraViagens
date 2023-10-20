@@ -1,18 +1,13 @@
-//
-//  ViagemOfertaViewModel.swift
-//  AluraViagens
-//
-//  Created by Wesley Rebouças on 17/10/23.
-//
 
 import Foundation
 
-class ViagemOfertaViewModel:  ViagemViewModel {
+class ViagemOfertaViewModel: ViagemViewModel {
+    
     var tituloSessao: String {
         return "Ofertas"
     }
     
-    var tipo: ViagemViewModelType{
+    var tipo: ViagemViewModelType {
         return .ofertas
     }
     
@@ -22,10 +17,9 @@ class ViagemOfertaViewModel:  ViagemViewModel {
         return 1
     }
     
-    // Mark:  - Inicializador
+    // MARK: - Inicializador
     
-    init(viagens: [Viagem]) {
+    init(_ viagens: [Viagem]) {
         self.viagens = viagens
     }
-    
 }

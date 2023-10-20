@@ -2,24 +2,42 @@
 
 import UIKit
 
-class ViagemTableViewCell: UITableViewCell {
-
+class DetalheViewController: UIViewController {
+    
     // MARK: - IBOutlets
     
-    @IBOutlet weak var backgroundViewCell: UIView!
+    @IBOutlet weak var continuarButton: UIButton!
     @IBOutlet weak var viagemImage: UIImageView!
     @IBOutlet weak var tituloViagemLabel: UILabel!
     @IBOutlet weak var subtituloViagemLabel: UILabel!
     @IBOutlet weak var diariaViagemLabel: UILabel!
     @IBOutlet weak var precoSemDescontoLabel: UILabel!
     @IBOutlet weak var precoViagemLabel: UILabel!
-    @IBOutlet weak var statusCancelamentoViagemLabel: UILabel!
     
-    func configuraCelula(_ viagem: Viagem?) {
+    // MARK: - Atributos
+    
+    var viagem: Viagem?
+    
+    // MARK: - View life cycle
+    
+    class func instanciar(_ viagem: Viagem) -> DetalheViewController {
+        let detalhesViewController = DetalheViewController(nibName: String(describing: self), bundle: nil)
+        detalhesViewController.viagem = viagem
+        
+        return detalhesViewController
+    }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        configuraView()
+    }
+    
+    func configuraView() {
         viagemImage.image = UIImage(named: viagem?.asset ?? "")
         tituloViagemLabel.text = viagem?.titulo
         subtituloViagemLabel.text = viagem?.subtitulo
         precoViagemLabel.text = "R$ \(viagem?.preco ?? 0)"
+        continuarButton.layer.cornerRadius = 5
         
         let atributoString: NSMutableAttributedString = NSMutableAttributedString(string: "R$ \(viagem?.precoSemDesconto ?? 0)")
         atributoString.addAttribute(NSAttributedString.Key.strikethroughStyle, value: 1, range: NSMakeRange(0, atributoString.length))
@@ -31,9 +49,11 @@ class ViagemTableViewCell: UITableViewCell {
             
             diariaViagemLabel.text = "\(numeroDeDias) \(diarias) - \(numeroDeHospedes) \(hospedes)"
         }
-        
-        DispatchQueue.main.async {
-            self.backgroundViewCell.addSombra()
-        }
+    }
+    
+    // MARK: - Actions
+    
+    @IBAction func botaoVoltar(_ sender: UIButton) {
+        navigationController?.popViewController(animated: true)
     }
 }
